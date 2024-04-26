@@ -867,4 +867,26 @@ body {
 }
 }
 
+@media (max-width: 1300px) {
+    #ingredients-main p {
+        font-size: 1.5rem;
+        width: 30rem;
+        line-height: 4rem;
+    }
+
+    #ingredients-main h2 {
+        text-align: end;
+    }
+
+    #card {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .cards {
+        min-width: 20rem;
+        margin: 0;
+    }
+}
+
 
